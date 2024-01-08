@@ -1,0 +1,10 @@
+.navigation {
+  height: 100%;
+  background: #f8f8fb;
+
+  &_content {
+    position: sticky;
+    top: 0;
+    padding: 24px;
+  }
+}

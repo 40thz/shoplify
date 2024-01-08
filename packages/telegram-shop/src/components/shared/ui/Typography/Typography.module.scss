@@ -1,0 +1,210 @@
+$black: #333;
+$pinq: #CC3361;
+$orange: #cc6633;
+$green: #a4cc33;
+$grayF3: #f3f3f3;
+$white: #fff;
+$blue: #4C5DB0;
+$grayF4: #f4f4f4;
+$grayD9: #d9d9d9;
+$grayC4: #c4c4c4;
+$gray99: #999;
+$gray66: #666;
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.black {
+    color: $black;
+}
+
+.blue {
+    color: $blue;
+}
+
+.orange {
+    color: $orange;
+}
+
+.white {
+    color: $white;
+}
+
+.grayF4 {
+    color: $grayF4;
+}
+
+.grayF3 {
+    color: $grayF3;
+}
+
+.grayD9 {
+    color: $grayD9;
+}
+
+.grayC4 {
+    color: $grayC4;
+}
+
+.gray99 {
+    color: $gray99;
+}
+
+.gray {
+    color: $gray66;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.s40 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40.16px;
+}
+
+.s32 {
+    font-size: 32px;
+    line-height: 38.4px;
+    font-weight: 500;
+}
+
+.s28 {
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.s24 {
+    font-size: 24px;
+    line-height: 100%;
+    font-weight: 400;
+}
+
+.s20 {
+    font-size: 20px;
+    line-height: 24.38px;
+    font-weight: 400;
+}
+
+.s16 {
+    font-size: 16px;
+    line-height: 19.5px;
+    font-weight: 400;
+}
+
+.s14 {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.s12 {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.s10 {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+@media all and (min-width:320px) and (max-width:1023px) {
+    .m28 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .m20 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .m16 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .m14 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .m12 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .m10 {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+@media all and (min-width:1024px) and (max-width:1539px) {
+    .t28 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .t20 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .t16 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .t14 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .t12 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .t10 {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+@media all and (min-width:1540px) {
+    .d28 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .d20 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .d16 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .d14 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .d12 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .d10 {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}

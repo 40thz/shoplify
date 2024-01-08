@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "yarn && lerna clean && yarn && lerna bootstrap",
+    "dev:server": "lerna run start:dev --scope=server",
+    "dev:account": "lerna run dev --scope=account",
+    "dev": "yarn dev:server && yarn dev:account"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^8.0.2"
+  }
+}
