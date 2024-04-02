@@ -47,8 +47,7 @@ export class UserService {
       },
     });
 
-    if (!user)
-      throw new BadRequestException('There is no user with this email address');
+    if (!user) throw new BadRequestException('There is no user with this email address');
 
     return user;
   }

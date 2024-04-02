@@ -1,5 +1,5 @@
 import { createSelector } from '@reduxjs/toolkit';
-import { RootState } from '@/app/app-sote';
+import { RootState } from '@/app/AppStore';
 
 const getUserModule = (state: RootState) => state.user;
 

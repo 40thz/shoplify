@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { Provider } from 'react-redux';
 import { ErrorBoundary } from '@/shared/ui/ui/ErrorBoundary';
-import { AppRouter } from './app-router';
-import { store } from './app-sote';
+import { AppRouter } from './AppRouter';
+import { store } from './AppStore';
 import '@/index.scss';
 
 export const initializeApp = () => {

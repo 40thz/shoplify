@@ -1,7 +1,7 @@
 import { AnyAction, ThunkDispatch } from '@reduxjs/toolkit';
 import { useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from '@/app/app-sote';
+import { RootState } from '@/app/AppStore';
 
 export type IThunkDispatch<Action extends AnyAction = AnyAction> = ThunkDispatch<RootState, unknown, Action>;
 

@@ -1,10 +1,11 @@
+import classNames from 'classnames';
 import React from "react";
 import cl from './Typography.module.scss';
-import classNames from 'classnames';
 
 export type TSizes = 40 | 32 | 28 | 24 | 20 | 16 | 14 | 12 | 10;
 type TFont = 'nunito' | 'montserrat';
 
+// eslint-disable-next-line react-refresh/only-export-components
 export enum EColor {
     black = 'black',
     blue = 'blue',

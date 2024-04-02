@@ -8,6 +8,8 @@
     "bootstrap": "yarn && lerna clean && yarn && lerna bootstrap",
     "dev:server": "lerna run start:dev --scope=server",
     "dev:account": "lerna run dev --scope=account",
+    "test": "lerna run test",
+    "lint": "lerna run lint",
     "dev": "yarn dev:server && yarn dev:account"
   },
   "dependencies": {},

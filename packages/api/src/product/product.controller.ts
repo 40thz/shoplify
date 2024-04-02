@@ -1,13 +1,4 @@
-import {
-  Controller,
-  Get,
-  Post,
-  Body,
-  Param,
-  UseGuards,
-  UsePipes,
-  ValidationPipe,
-} from '@nestjs/common';
+import { Controller, Get, Post, Body, Param, UseGuards, UsePipes, ValidationPipe } from '@nestjs/common';
 import { ProductService } from './product.service';
 import { CreateProductDto } from './dto/create-product.dto';
 
@@ -21,10 +12,7 @@ export class ProductController {
   @Post(':shop_id')
   @UseGuards(AuthGuard, ShopGuard)
   @UsePipes(new ValidationPipe())
-  create(
-    @Param('shop_id') shop_id: string,
-    @Body() createProductDto: CreateProductDto,
-  ) {
+  create(@Param('shop_id') shop_id: string, @Body() createProductDto: CreateProductDto) {
     return this.productService.create(createProductDto, shop_id);
   }
 

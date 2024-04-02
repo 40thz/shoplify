@@ -1,7 +1,7 @@
 import { FC, PropsWithChildren } from "react";
-import styles from "./Button.module.scss";
-import { EColor, Typography } from "../Typography";
 import { ArrowIcon } from "../../icons/Arrow";
+import { EColor, Typography } from "../Typography";
+import styles from "./Button.module.scss";
 
 export const Button: FC<PropsWithChildren> = ({ children }) => {
   return (

@@ -1,9 +1,4 @@
-import {
-  BadRequestException,
-  CanActivate,
-  ExecutionContext,
-  Injectable,
-} from '@nestjs/common';
+import { BadRequestException, CanActivate, ExecutionContext, Injectable } from '@nestjs/common';
 
 import { UserService } from 'src/user/user.service';
 
@@ -18,8 +13,7 @@ export class ShopGuard implements CanActivate {
     const userShops = await this.userService.findOne(req.user.email, true);
     const shopIds = userShops.shops.map((shop) => shop.id);
 
-    if (!shopIds.includes(shopId))
-      throw new BadRequestException(`Shop with id ${shopId} not found`);
+    if (!shopIds.includes(shopId)) throw new BadRequestException(`Shop with id ${shopId} not found`);
 
     return true;
   }
